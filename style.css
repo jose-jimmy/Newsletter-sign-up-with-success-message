@@ -133,10 +133,20 @@ body{
     padding-bottom: 10px;
 }
 
+/*Valid email required text*/
+.valid-email-req{
+    float: right;
+    padding-right: 10px;
+    color: var(--clr-primary-red);
+    display: none;
+}
+
 .email-section input{
-    padding: 10px 7rem 10px 20px;
+    padding: 10px 0 10px 20px;
+    width: 98%;
     border: 1px solid hsl(233, 7%, 76%);
     border-radius: 10px;
+    outline: none;
 }
 
 input::placeholder {
@@ -146,7 +156,8 @@ input::placeholder {
 }
 
 .email-section button{
-    padding: 15px 3.76rem 15px 3.76rem;
+    padding: 15px;
+    width: 100%;
     border: none;
     border-radius: 10px;
     background-color: var(--clr-neutral-gray-600);
@@ -160,6 +171,7 @@ input::placeholder {
     background: linear-gradient(90deg,hsl(353, 100%, 62%) 0%,hsl(13, 96%, 68%) 100%);
     box-shadow: 0px 10px 20px hsla(353, 100%, 62%, 0.5);
 }
+
 
 .subscribe-button{
     padding-top: 20px;
@@ -178,9 +190,9 @@ input::placeholder {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
         margin-top: 1rem;
-        padding: 20px ;
+        padding: 30px 10px 30px 10px;
         border-radius: 20px;
-        max-width: 860px;
+        max-width: 880px;
         max-height: 650px;
     }
     .product__img{
@@ -191,13 +203,17 @@ input::placeholder {
     .details-section{
     text-align: left;
     display: grid;
-    padding: 30px 10px 30px 10px;
+    padding: 40px 10px 40px 10px;
 
     }
 
     .details-section h1{
         text-align: left;
         font-size: 3rem;
+    }
+
+    .email-section input{
+        width: 100%;
     }
 
 }
@@ -227,12 +243,13 @@ input::placeholder {
     padding-bottom: 11rem;
 }
 
-.success-container span{
+.confirmation-id{
     font-weight: 700;
     color: var(--clr-neutral-gray-600);
 }
 .success-container button{
     padding: 15px 3.76rem 15px 3.76rem;
+    width: 100%;
     border: none;
     border-radius: 10px;
     background-color: var(--clr-neutral-gray-600);
@@ -270,6 +287,6 @@ input::placeholder {
 
     .success-container p{
         padding-bottom: 40px;
-        font-size: 0.89rem;
+        font-size: 0.86rem;
     }
 }
