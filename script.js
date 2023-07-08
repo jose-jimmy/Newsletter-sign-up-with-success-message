@@ -20,7 +20,7 @@ email_btn.addEventListener("click", (e) => {
   } else {
     textError.style.display = "none";
     main_container.style.display = "none";
-    success_msg.style.display = "block";
+    success_msg.style.display = "grid";
     confirmation_id.innerHTML = email;
   }
 });
