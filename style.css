@@ -90,7 +90,6 @@ body{
     background-color: var(--clr-neutral-white);
     color: var(--clr-neutral-gray-700);
     font-size: 1rem;
-    overflow: hidden;
 }
 
 
